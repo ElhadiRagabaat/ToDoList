@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: silver;
+}
+header{
+    min-height: 150px;
+    color: #e0eff2;
+    background: #3a50d9;
+    font: italic bold Georgia, Serif;
+    text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 4px;
+  
+   
+}
+.row{
+    display: flex;
+   
+}
+.row nav{
+    
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 8px;
+   
+}
+.row button{
+    border: none;
+    width: 15%;
+    height: 100%;
+     
+   
+}
+.row input{
+   width: 70%;
+    height: 100%;
+     
+}
+
+
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding:  8px;
+    background: rgb(151, 119, 119);
+    color: white;
+    font-size: 2em;
+    transition: 0.2s;
+  
+  }
+
+
+
+
+  
+  /* When clicked on, add a background color and strike out text */
+  ul li.checked {
+    background: rgb(151, 119, 119);
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+ 
+  
+  
+  
+
+  
+
+  
